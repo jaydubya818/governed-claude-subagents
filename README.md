@@ -9,6 +9,12 @@ A comprehensive collection of **116 specialized AI sub-agents** optimized for Cl
 
 > **Note:** this repository was previously named `awesome_claude_agents`. GitHub redirects the old URL, but please update any bookmarks or clones.
 
+> **Provenance:** parts of this collection are adapted from other people's work —
+> six agents from [wshobson/agents](https://github.com/wshobson/agents) (MIT, © 2024 Seth Hobson),
+> and `external_repos/open-swe/` is a vendored copy of
+> [LangChain's Open SWE](https://github.com/langchain-ai/open-swe) (MIT, © LangChain, Inc.)
+> that is not covered by this repository's root LICENSE. Full detail in [CREDITS.md](CREDITS.md).
+
 ## 🎯 Quick Start
 
 ### **Setup**
@@ -177,4 +183,5 @@ for tracing what a fleet of these actually did.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE), and [CREDITS.md](CREDITS.md) for the parts of this
+repository that belong to other people.
