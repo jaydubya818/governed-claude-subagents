@@ -2,6 +2,13 @@
 
 A comprehensive collection of **116 specialized AI sub-agents** optimized for Claude Code with parallel execution capabilities, enhanced communication protocols, and comprehensive quality assurance.
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Subagents](https://img.shields.io/badge/subagents-116-7057ff.svg)](#)
+[![Categories](https://img.shields.io/badge/categories-12-informational.svg)](#)
+[![Claude Code](https://img.shields.io/badge/for-Claude%20Code-D97757.svg)](https://claude.com/claude-code)
+
+> **Note:** this repository was previously named `awesome_claude_agents`. GitHub redirects the old URL, but please update any bookmarks or clones.
+
 ## 🎯 Quick Start
 
 ### **Setup**
@@ -153,3 +160,21 @@ All detailed documentation is available in the `docs/` directory:
 ---
 
 **🎉 Ready to use with 116 optimized agents featuring parallel execution, enhanced communication, and comprehensive quality assurance! 🚀**
+
+---
+
+## Where these run
+
+These subagents are the execution layer. If you want the control plane around
+them — governed intake, bounded execution, independent verification, evidence,
+and human-approved pull requests — see
+**[Mission Control](https://github.com/jaydubya818/MissionControl)**, which treats
+agent completion and verified success as two different things.
+
+Related: [Agentic-KB](https://github.com/jaydubya818/Agentic-KB) for durable agent
+memory, and [multi-agent-observability](https://github.com/jaydubya818/multi-agent-observability)
+for tracing what a fleet of these actually did.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
